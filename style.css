@@ -1,0 +1,112 @@
+body {
+    background-color: #eb2424;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+body {
+    body {
+        background-image: url('https://www.pinterest.com/pin/60728294969307764/');
+        background-size: cover;
+        background-position: center;
+        color: rgb(1, 0, 0); /* Makes text readable on dark backgrounds */
+    }
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+h3 {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+p {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.6;
+}
+body {
+    background-image: url('https://source.unsplash.com/1600x900/?nature');
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0); /* Makes text readable on dark backgrounds */
+}
+button {
+    background-color: blue;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+}
+.container {
+    display: flex;
+    justify-content: center;  /* Centers items horizontally */
+    align-items: center;  /* Centers items vertically */
+    gap: 20px;  /* Adds space between boxes */
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+
+.box {
+    background-color: rgb(224, 225, 224);
+    color: rgba(0, 0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+}
+.container {
+    display: flex;
+    justify-content: center;  /* Change this to another option */
+    align-items: center;
+    gap: 20px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkblue;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miloso</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <p>Welcome to my schooling and online website</p>
+    <link rel="stylesheet" href="style.css">
+    <img src="mypic.jpg.jpg" alt="A beautiful picture" width="600">
+    <c href="https://printify.com/app/store/products/1" target="_blank">My Printify products</a>
+        <a href="https://printify.com/app/dashboard">ETSY dashboard</a>
+    <a href="https://kdp.amazon.com/en_US/bookshelf?ref_=kdp_kdp_BS_D_TN_bs">
+        <button>My KDP bookshelf</button>
+    </a>
+    <div class="box">
+        <h3>ABOUT MYSELF:A Journey Through Engineering, Football, and Creativity</h3>
+        <p>My name is Joseph Miloso, a Mechanical and Production Engineering student at the University of Eldoret (UoE). My journey in engineering is driven by curiosity and a passion for problem-solving. From understanding complex mechanical systems to working on real-world applications, every challenge strengthens my skills and pushes me to think critically.
+
+            Beyond engineering, football is my escape. Playing as a central defensive midfielder (CDM), I love the strategic aspect of the game—anticipating plays, breaking up attacks, and keeping the team balanced. Football has taught me teamwork, resilience, and the importance of quick decision-making, qualities that also help in my academic and professional life.
+            
+            In addition to my technical and athletic pursuits, I have a growing passion for graphic design and web design. Im learning web design online, eager to master the skills needed to create functional and visually appealing websites. Designing logos and digital content also excites me, blending creativity with technical knowledge.
+            
+            Balancing engineering, sports, and design is challenging but fulfilling. Each aspect of my life complements the other, shaping me into a well-rounded individual ready to take on the future.</p>
+    </div>
+    <div class="box">
+        <img src="orange.png" alt="Image" width="300">
+        <h3>Orange and Me: A Journey of Love, Learning, and Sports</h3>
+        <p>At the University of Eldoret, my life revolves around engineering, football, and creativity—but an important part of my journey is my girlfriend, Orange. She is studying Education Science, specializing in Chemistry and Physics. Her passion for teaching and the sciences inspires me, and we often find ourselves discussing concepts from our different fields, learning from each other.
+
+            Beyond academics, Orange is also an athlete. She plays netball, a game that requires agility, precision, and teamwork—qualities that reflect who she is. Just like football teaches me discipline and strategy, netball does the same for her, making us both dedicated to our respective sports.
+            
+            Being in the same school has made our journey even more special. Whether its supporting each other in studies, cheering from the sidelines, or just spending time together after a long day, we continue to grow together, balancing love, education, and our personal goals.</p>
+    </div>  
+    <div class="box">
+        <h3>My project link</h3>
+        <p>My footstep power generation project using pinion and rack gears is a mechanical approach to harvesting energy. When a person steps on the system, the rack moves linearly, engaging the pinion gear to rotate. This rotational motion can then drive a generator to produce electricity.
+
+            This method is efficient in areas with heavy foot traffic, such as sidewalks, shopping malls, and public transport stations. It’s a cost-effective and durable solution compared to piezoelectric alternatives. Are you designing it for a specific location or testing different load capacities?</p>
+        <a href="https://nevonprojects.com/design-fabrication-of-mechanical-footstep-power-generator/">Visit nevonprojects</a>
+    </div>
+    </div>
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required minlength="3">
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="country">Country:</label>
+        <input type="country" id="country" name="email" placeholder="Enter your Country" required>
+
+        <label for="phone_number">Phone Number:</label>
+        <input type="phone_number" id="phone_number" name="phone_number" placeholder="Enter your phone_number" required minlength="10">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Write your message" required></textarea>
+    
+        <button type="submit">Send</button>
+    </form>
+    <script>
+        document.getElementById("contactForm").addEventListener("submit", function(event) {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let country = document.getElementById("country").value;
+            let phone_number = document.getElementById("phone_number").value;
+            let message = document.getElementById("message").value;
+        
+            if (name.length < 3) {
+                alert("Name must be at least 3 characters long.");
+                event.preventDefault(); // Stops form submission
+            } else if (!email.includes("@")) {
+                alert("Please enter a valid email address.");
+                event.preventDefault();
+            } else if (!phone_number.includes("+254")) 
+               alert("Please Enter a valid Phone number")
+            } else if (message.length < 10) {
+                alert("Message must be at least 10 characters long.");
+                event.preventDefault();
+            }
+        );
+        </script>
+        <b href="https://wa.me/?text=Check%20out%20this%20website:%20https://cozy-beignet-398f9c.netlify.app/" target="_blank">
+            <button>Share on WhatsApp</button>
+        </a>
+        
+
+</body>
+</html>
